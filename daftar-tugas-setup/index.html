@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daftar Tugas Pertama yang Aman untuk Nod | TeknoBelajar</title>
+<meta name="description" content="8 tugas pertama yang aman untuk dicoba dengan Nod, asisten AI open source dari n8n Labs. Plus 3 aturan aman dan daftar jangan dulu.">
+<style>
+  :root { --ink: #141414; --card: #1d1d1f; --yellow: #ffc93c; --text: #f2f2f2; --muted: #b8b8b8; --line: #2e2e30; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--ink); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; padding: 24px 16px 64px; }
+  .wrap { max-width: 640px; margin: 0 auto; }
+  .brand { font-weight: 800; font-size: 15px; letter-spacing: 0.04em; margin-bottom: 28px; }
+  .brand span { color: var(--yellow); }
+  h1 { font-size: 30px; line-height: 1.25; margin-bottom: 12px; }
+  h1 em { color: var(--yellow); font-style: normal; }
+  .intro { color: var(--muted); margin-bottom: 28px; }
+  .intro a { color: var(--yellow); }
+  h2 { font-size: 19px; margin: 32px 0 14px; }
+  h2 .num { color: var(--yellow); }
+  ol.tasks { list-style: none; counter-reset: t; }
+  ol.tasks li { counter-increment: t; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px 14px 52px; margin-bottom: 10px; position: relative; }
+  ol.tasks li::before { content: counter(t); position: absolute; left: 16px; top: 13px; width: 24px; height: 24px; border-radius: 50%; background: var(--yellow); color: #141414; font-weight: 800; font-size: 14px; text-align: center; line-height: 24px; }
+  ol.tasks li small { color: var(--muted); }
+  ul.rules { list-style: none; }
+  ul.rules li { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin-bottom: 10px; }
+  ul.rules li::before { content: "\2713  "; color: var(--yellow); font-weight: 800; }
+  .dont { background: #2a1d1d; border: 1px solid #4a2c2c; border-radius: 12px; padding: 16px; margin-top: 8px; }
+  .dont h2 { margin-top: 0; }
+  .dont ul { list-style: none; }
+  .dont li { padding: 4px 0; }
+  .dont li::before { content: "\2715  "; color: #ff6b6b; font-weight: 800; }
+  .links { margin-top: 36px; border-top: 1px solid var(--line); padding-top: 20px; }
+  .links a { display: block; color: var(--yellow); text-decoration: none; padding: 6px 0; font-weight: 600; }
+  .links a:hover { text-decoration: underline; }
+  .foot { margin-top: 28px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">TEKNO<span>BELAJAR</span></div>
+
+  <h1>Daftar Tugas Pertama yang <em>Aman</em> untuk Nod</h1>
+  <p class="intro">Nod adalah asisten AI open source dari n8n Labs (Apache 2.0, gratis). Nod berjalan di komputermu sendiri dan selalu tanya dulu sebelum bertindak. Daftar ini dari video <a href="https://youtube.com/shorts/WYIFqDSLTPk">Setup Nod Sendiri dalam 10 Menit</a> di channel TeknoBelajar.</p>
+
+  <h2><span class="num">8</span> tugas pertama yang aman buat dicoba</h2>
+  <ol class="tasks">
+    <li>Merangkum email yang belum dibaca</li>
+    <li>Membuat brief persiapan rapat dari email dan kalendermu</li>
+    <li>Mencari dan membandingkan informasi di web</li>
+    <li>Memantau perubahan harga di sebuah halaman</li>
+    <li>Merangkum dokumen atau PDF</li>
+    <li>Menyusun draf balasan email <small>(draf saja, Nod tanya dulu sebelum mengirim)</small></li>
+    <li>Mengubah email dan pesan Slack menjadi daftar tugas</li>
+    <li>Mencari follow-up yang terlupa</li>
+  </ol>
+
+  <h2><span class="num">3</span> aturan aman</h2>
+  <ul class="rules">
+    <li>Nod selalu tanya dulu sebelum bertindak, jangan lewati pertanyaan itu.</li>
+    <li>Mulai dari tugas baca dan rangkum saja, seperti 8 tugas di daftar ini.</li>
+    <li>Untuk tugas yang menghasilkan draf, periksa drafnya dulu, kamu yang memutuskan.</li>
+  </ul>
+
+  <div class="dont">
+    <h2>Daftar jangan dulu</h2>
+    <p>Sebelum kamu paham cara Nod bekerja, jangan dulu memberi tugas yang:</p>
+    <ul>
+      <li>Mengirim sesuatu</li>
+      <li>Menghapus sesuatu</li>
+      <li>Mengubah sesuatu</li>
+      <li>Membayar sesuatu</li>
+    </ul>
+  </div>
+
+  <div class="links">
+    <a href="https://nod.n8n.io">Coba Nod (nod.n8n.io)</a>
+    <a href="https://github.com/n8n-io/nod">Kode sumber Nod di GitHub</a>
+    <a href="https://youtube.com/shorts/WYIFqDSLTPk">Tonton videonya: Setup Nod Sendiri dalam 10 Menit</a>
+  </div>
+
+  <p class="foot">TeknoBelajar, belajar AI dengan cara yang jujur dan bisa dicoba langsung.</p>
+</div>
+</body>
+</html>
